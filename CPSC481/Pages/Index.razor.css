@@ -1,0 +1,38 @@
+﻿#searchButton {
+    margin: 0;
+}
+
+#popular {
+    display: flex;
+    overflow: scroll;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+.card {
+    min-width: 200px;
+    
+}
+
+#popular::-webkit-scrollbar {
+    display: none;
+}
+
+#categories {
+    display: flex;
+    overflow: scroll;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+#categories::-webkit-scrollbar {
+    display: none;
+}
+
+h5 {
+    margin-top: 50px;
+}
+
+#categories > .card > img{
+    border-radius: 30%;
+}

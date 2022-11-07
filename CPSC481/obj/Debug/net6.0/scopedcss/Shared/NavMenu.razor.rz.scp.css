@@ -1,0 +1,42 @@
+.oi[b-sl09fl9cl6] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.navbar[b-sl09fl9cl6] {
+    width: 100%;
+}
+
+.navbar-nav[b-sl09fl9cl6] {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item[b-sl09fl9cl6] {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+}
+
+    .nav-item[b-sl09fl9cl6]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-sl09fl9cl6]  a.active {
+    background-color: rgba(255,255,255,1);
+    color: white;
+}
+
+.nav-item[b-sl09fl9cl6]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
