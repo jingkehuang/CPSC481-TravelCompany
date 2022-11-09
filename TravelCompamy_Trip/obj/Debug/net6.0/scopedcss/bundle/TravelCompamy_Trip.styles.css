@@ -1,0 +1,200 @@
+/* _content/TravelCompamy_Trip/Pages/AddPlan.razor.rz.scp.css */
+.previous[b-sm0u1qy4z3] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-primary[b-sm0u1qy4z3] {
+    background-color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    margin: 6px 4px;
+    /*    bottom: 20px;*/
+}
+/* _content/TravelCompamy_Trip/Pages/AddTrip.razor.rz.scp.css */
+.previous[b-qwj36je44t] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.groove[b-qwj36je44t] {
+    border-style: groove;
+}
+
+.border[b-qwj36je44t] {
+    border-style: groove;
+}
+
+/*.form-group {
+    border-style: groove;
+}*/
+/* _content/TravelCompamy_Trip/Pages/Index.razor.rz.scp.css */
+.btnTrip[b-d86lxp0iky] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-success[b-d86lxp0iky] {
+    /*    border-radius: 50%;*/
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    padding: 15px 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixed-bottom[b-d86lxp0iky] {
+    bottom: 0px;
+    width: 100%
+}
+/* _content/TravelCompamy_Trip/Shared/MainLayout.razor.rz.scp.css */
+.page[b-2urqxuxz5g] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-2urqxuxz5g] {
+    flex: 1;
+}
+
+.sidebar[b-2urqxuxz5g] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-2urqxuxz5g] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-2urqxuxz5g]  a, .top-row .btn-link[b-2urqxuxz5g] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-2urqxuxz5g] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-2urqxuxz5g] {
+        display: none;
+    }
+
+    .top-row.auth[b-2urqxuxz5g] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-2urqxuxz5g], .top-row .btn-link[b-2urqxuxz5g] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-2urqxuxz5g] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-2urqxuxz5g] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-2urqxuxz5g] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-2urqxuxz5g], article[b-2urqxuxz5g] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+/* _content/TravelCompamy_Trip/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-cdralmqhk5] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-cdralmqhk5] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-cdralmqhk5] {
+    font-size: 1.1rem;
+}
+
+.oi[b-cdralmqhk5] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-cdralmqhk5] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-cdralmqhk5] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-cdralmqhk5] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-cdralmqhk5]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-cdralmqhk5]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-cdralmqhk5]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-cdralmqhk5] {
+        display: none;
+    }
+
+    .collapse[b-cdralmqhk5] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
