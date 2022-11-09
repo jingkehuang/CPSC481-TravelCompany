@@ -1,0 +1,17 @@
+﻿.previous {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.border {
+    border-style: groove;
+}
+
+/*.form-group {
+    border-style: groove;
+}*/
