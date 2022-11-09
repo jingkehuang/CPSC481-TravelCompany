@@ -1,0 +1,31 @@
+.btnTrip[b-d86lxp0iky] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-success[b-d86lxp0iky] {
+    /*    border-radius: 50%;*/
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    padding: 15px 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixed-bottom[b-d86lxp0iky] {
+    bottom: 0px;
+    width: 100%
+}
