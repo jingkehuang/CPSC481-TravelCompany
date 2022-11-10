@@ -1,20 +1,20 @@
-﻿@page "/"
+﻿@page "/Events"
 
-<PageTitle>Index</PageTitle>
 
-<p>Hello Adam, Where Would You Like To Go?</p>
+<h3>Events</h3>
+<PageTitle>Events</PageTitle>
 
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light">
     <div class="input-group mb-3">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">
+        <a class="btn btn-outline-success" type="submit" href="/EventsSearch">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
             </svg>
-        </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </a>
+        <a class="navbar-toggler" type="button" data-toggle="collapse" href="/EventsFilter" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </a>
     </div>
 
 
@@ -42,11 +42,33 @@
     </div>
 </nav>
 
-<h4>Popular Places</h4>
+<h4>Popular Events</h4>
 
 <div id="popular">
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        <a href="/EventPage">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Dog Show</h5>
+            <p class="card-text">8th St. SW, Calgary, AB</p>
+            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <a href="/EventPage">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Dog Show</h5>
+            <p class="card-text">8th St. SW, Calgary, AB</p>
+            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <a href="/EventPage">
+             <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">   
+        </a>
         <div class="card-body">
             <h5 class="card-title">Dog Show</h5>
             <p class="card-text">8th St. SW, Calgary, AB</p>
@@ -61,38 +83,11 @@
             <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Dog Show</h5>
-            <p class="card-text">8th St. SW, Calgary, AB</p>
-            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Dog Show</h5>
-            <p class="card-text">8th St. SW, Calgary, AB</p>
-            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Dog Show</h5>
-            <p class="card-text">8th St. SW, Calgary, AB</p>
-            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Dog Show</h5>
-            <p class="card-text">8th St. SW, Calgary, AB</p>
-            <p class="card-text">5PM - 8PM, 26 Oct. 22</p>
-        </div>
-    </div>
+</div>
+
+<h4>Suggested Events</h4>
+
+<div id="popular">
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
         <div class="card-body">
@@ -129,10 +124,14 @@
 
 <h4>Categories</h4>
 
-<div id="categories">
+<div id="categories" style="margin-bottom: 140px;">
     <div class="card2" style="width: 10rem;">
         <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
-         <p class="card-text2">Animal</p>
+        <p class="card-text2">Animal</p>
+    </div>
+    <div class="card2" style="width: 10rem;">
+        <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        <p class="card-text2">Animal</p>
     </div>
     <div class="card2" style="width: 10rem;">
         <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
@@ -142,32 +141,12 @@
         <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
         <p class="card-text2">Animal</p>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="card2" style="width: 10rem;">
+        <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        <p class="card-text2">Animal</p>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="card2" style="width: 10rem;">
+        <img class="card-img-top2" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="Card image cap">
+        <p class="card-text2">Animal</p>
     </div>
 </div>

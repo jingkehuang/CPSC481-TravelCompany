@@ -1,4 +1,7 @@
-﻿#searchButton {
+﻿body {
+}
+
+#searchButton {
     margin: 0;
 }
 
@@ -16,7 +19,7 @@
 }
 
 .card-img-top {
-   border-radius: 5%;
+    border-radius: 5%;
 }
 
 .card2 {
@@ -44,9 +47,9 @@
     margin-bottom: 50px;
 }
 
-#categories::-webkit-scrollbar {
-    display: none;
-}
+    #categories::-webkit-scrollbar {
+        display: none;
+    }
 
 h4 {
     margin-top: 50px;
@@ -56,6 +59,6 @@ p {
     margin-bottom: 0rem;
 }
 
-#categories > .card > img{
+#categories > .card > img {
     border-radius: 30%;
 }

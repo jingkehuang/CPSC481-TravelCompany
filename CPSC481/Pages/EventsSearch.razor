@@ -1,0 +1,180 @@
+﻿@page "/EventsSearch"
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar navbar-light">
+    <div class="input-group mb-3">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <a class="btn btn-outline-success" type="submit" href="/EventsSearch">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+        </a>
+        <a class="navbar-toggler" type="button" data-toggle="collapse" href="/EventsFilter" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color: white; color: green;">
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</div>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<hr />
+
+<div class="event-list">
+    <div class="event">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+    <div class="event">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+    <div class="event">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+    <div class="event">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+    <div class="event">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+    <div class="event" style="margin-bottom: 60px;">
+        <a href="/EventPage">
+            <img style="margin-right: 20px;" src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" />
+        </a>
+        <div class="e-details">
+            <h6>Dog Show</h6>
+            <h6>8th St. SW, Calgary, AB</h6>
+            <div class="tag-container">
+                <button class="tag-btn">animal</button>
+                <button class="tag-btn">Accessibility</button>
+                <button class="tag-btn">Kid-friendly</button>
+                <button class="tag-btn">Free-food</button>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="search-event-button" id="B1" style="" type="submit"><i class="fa fa-bell"></i></button>
+            <button class="search-event-button" id="B2" style="" type="submit"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <hr />
+</div>
+
+@code {
+
+}
