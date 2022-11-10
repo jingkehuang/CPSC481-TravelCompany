@@ -1,0 +1,17 @@
+.plan-card[b-ozac5kjzqk] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.card-text[b-ozac5kjzqk] {
+    margin: 0;
+}
+
+.btn-notify[b-ozac5kjzqk] {
+    margin: 1rem;
+    border-radius: 5rem;
+    padding: 0;
+}

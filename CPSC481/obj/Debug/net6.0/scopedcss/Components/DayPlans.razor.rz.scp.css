@@ -1,0 +1,11 @@
+.day-container[b-fhduwdozlg] {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.day-container:last-child[b-fhduwdozlg] {
+    margin-bottom: 2rem;
+}

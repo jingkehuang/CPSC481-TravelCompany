@@ -1,0 +1,34 @@
+.page-container[b-odv8kjcm70] {
+    width: 100%;
+}
+
+.page-header[b-odv8kjcm70] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-title[b-odv8kjcm70] {
+    margin: 0 0 0 0.5rem;
+}
+
+.plan-form[b-odv8kjcm70] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem 1em;
+    height: auto;
+}
+
+.btn-save[b-odv8kjcm70] {
+    background-color: #4CAF50;
+    margin: 1rem 0;
+    color: white;
+}
+
+.btn-round[b-odv8kjcm70] {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}

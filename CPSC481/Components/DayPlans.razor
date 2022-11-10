@@ -1,0 +1,19 @@
+﻿<div class="day-container">
+    <h4 class="fw-bold">@planDate</h4>
+
+    <PlanCard planName="@plan1" planTime="@time1" planAddress="@address1" />
+    <PlanCard planName="@plan2" planTime="@time2" planAddress="@address2" />
+</div>
+
+@code {
+    [Parameter]
+    public string planDate { get; set; } = "";
+
+    private string plan1 = "Dog Show";
+    private string time1 = "5:00pm - 8:00pm";
+    private string address1 = "8th St SW, Calgary, AB";
+
+    private string plan2 = "Food Fair";
+    private string time2 = "2:30pm";
+    private string address2 = "26th Ave NW, Calgary, AB";
+}
