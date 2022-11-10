@@ -1,39 +1,47 @@
 ﻿@page "/addplan"
-<PageTitle>AddPlan</PageTitle>
 
-<a href="#" class="btn previous">
-    &#8249; Add Plan
-</a>
+<PageTitle>Add a New Plan</PageTitle>
 
-
-
-<form>
-    <div class="form-group">
-        <label for="title">Title</label>
-        <input class="form-control" id="title" placeholder="Enter title">
-    </div>
-    <div class="form-group">
-        <label for="date">Date</label>
-        <input type="date" class="form-control" id="date" placeholder="DD-MM-YYYY">
-    </div>
-    <div class="form-group">
-        <label for="time">Time</label>
-        <input type="datetime" class="form-control" id="time" placeholder="Start time">
-        <label for="time">to</label>
-        <input type="datetime" class="form-control" id="time" placeholder="End time">
+<div class="page-container">
+    <div class="page-header">
+        <button type="button" class="btn btn-round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+        </button>
+        <p class="text-wrap fs-4 fw-bold page-title">Add a Plan</p>
     </div>
 
-    <div class="form-group">
-        <label for="location">Location</label>
-        <input class="form-control" id="location">
-    </div>
+    <form class="plan-form">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="activityName" placeholder="unknown" required>
+            <label for="activityName">Activity Name</label>
+        </div>
 
-    <div class="form-group">
-        <label for="detail">Details</label>
-        <textarea class="form-control" id="detail" rows="3"></textarea>
-    </div>
+        <div class="form-floating mb-3">
+            <input type="datetime-local" class="form-control" id="startDate&Time" required>
+            <label for="startDate&Time">Start Date & Time</label>
+        </div>
 
+        <div class="form-floating mb-3">
+            <input type="datetime-local" class="form-control" id="endDate&Time" required>
+            <label for="endDate&Time">End Date & Time</label>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Save</button>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="address" placeholder="unknown">
+            <label for="address">Address</label>
+        </div>
 
-</form>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="N/A" id="notes" style="height: 100px"></textarea>
+            <label for="notes">Notes</label>
+        </div>
+
+        <button type="submit" class="btn btn-save">Save</button>
+    </form>
+</div>
+
+@code {
+
+}
