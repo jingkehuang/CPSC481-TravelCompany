@@ -1,91 +1,91 @@
-/* _content/CPSC481/Pages/AmenitySearch.razor.rz.scp.css */
-body[b-ukgivds29a] {
+/* _content/CPSC481/Pages/AmenitySearchPage.razor.rz.scp.css */
+body[b-wsutnc8puh] {
     margin: 0;
 }
 
-#searchButton[b-ukgivds29a] {
+#searchButton[b-wsutnc8puh] {
     margin: 0;
 }
 
-#title[b-ukgivds29a] {
+#title[b-wsutnc8puh] {
     display: flex;
     gap: 0.7rem;
 }
 
-.amenityList[b-ukgivds29a] {
+.amenityList[b-wsutnc8puh] {
     display: flex;
     border-bottom: solid 0.1rem black;
     width: 100%;
     margin-top: 10px;
 }
 
-.amenityListImg[b-ukgivds29a] {
+.amenityListImg[b-wsutnc8puh] {
     height: 60px;
     width: 100px;
     padding: 2px;
 }
 
-.description > p[b-ukgivds29a] {
+.description > p[b-wsutnc8puh] {
     font-size: x-small;
     margin-bottom: 0;
     margin-top: 5px;
 }
 
-.description > h6[b-ukgivds29a] {
+.description > h6[b-wsutnc8puh] {
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 5px;
     font-size: smaller;
 }
 
-.description[b-ukgivds29a] {
+.description[b-wsutnc8puh] {
     width: 220px;
 }
 
-img[b-ukgivds29a] {
+img[b-wsutnc8puh] {
     width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
 }
 
-/* _content/CPSC481/Pages/Index.razor.rz.scp.css */
-#searchButton[b-4bqqtykl6g] {
+/* _content/CPSC481/Pages/ExplorePage.razor.rz.scp.css */
+#searchButton[b-dgd59kxs8t] {
     margin: 0;
 }
 
-#popular[b-4bqqtykl6g] {
+#popular[b-dgd59kxs8t] {
     display: flex;
     overflow: scroll;
     gap: 1rem;
     margin-bottom: 50px;
 }
 
-.card[b-4bqqtykl6g] {
+.card[b-dgd59kxs8t] {
     min-width: 200px;
     
 }
 
-#popular[b-4bqqtykl6g]::-webkit-scrollbar {
+#popular[b-dgd59kxs8t]::-webkit-scrollbar {
     display: none;
 }
 
-#categories[b-4bqqtykl6g] {
+#categories[b-dgd59kxs8t] {
     display: flex;
     overflow: scroll;
     gap: 1rem;
     margin-bottom: 50px;
 }
 
-#categories[b-4bqqtykl6g]::-webkit-scrollbar {
+#categories[b-dgd59kxs8t]::-webkit-scrollbar {
     display: none;
 }
 
-h5[b-4bqqtykl6g] {
+h5[b-dgd59kxs8t] {
     margin-top: 50px;
 }
 
-#categories > .card > img[b-4bqqtykl6g]{
+#categories > .card > img[b-dgd59kxs8t]{
     border-radius: 30%;
 }
 /* _content/CPSC481/Shared/MainLayout.razor.rz.scp.css */
