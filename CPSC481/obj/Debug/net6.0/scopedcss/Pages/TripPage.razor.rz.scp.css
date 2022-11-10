@@ -1,0 +1,38 @@
+.page-container[b-6inhuixx6h] {
+    width: 100%;
+}
+
+.page-header[b-6inhuixx6h] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-body[b-6inhuixx6h] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 1em;
+    height: auto;
+}
+
+.btn-round[b-6inhuixx6h] {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.trip-name[b-6inhuixx6h] {
+    margin: 0 0 0 0.5rem;
+}
+
+#add-new-plan[b-6inhuixx6h] {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+hr[b-6inhuixx6h] {
+    margin-top: -1rem;
+}

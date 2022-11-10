@@ -84,3 +84,6 @@ C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.genruntimeconfig
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\ref\CPSC481.dll
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AmenitySearchPage.razor.rz.scp.css
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\ExplorePage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripPage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\DayPlans.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\PlanCard.razor.rz.scp.css

@@ -1,0 +1,38 @@
+﻿.page-container {
+    width: 100%;
+}
+
+.page-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 1em;
+    height: auto;
+}
+
+.btn-round {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.trip-name {
+    margin: 0 0 0 0.5rem;
+}
+
+#add-new-plan {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+hr {
+    margin-top: -1rem;
+}

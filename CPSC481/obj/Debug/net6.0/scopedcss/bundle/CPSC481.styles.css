@@ -1,3 +1,30 @@
+/* _content/CPSC481/Components/DayPlans.razor.rz.scp.css */
+.day-container[b-fhduwdozlg] {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+/* _content/CPSC481/Components/PlanCard.razor.rz.scp.css */
+.plan-card[b-ozac5kjzqk] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.card-text[b-ozac5kjzqk] {
+    margin: 0;
+}
+
+.btn-notify[b-ozac5kjzqk] {
+    margin: 1rem;
+    border-radius: 5rem;
+    padding: 0;
+}
 /* _content/CPSC481/Pages/AmenitySearchPage.razor.rz.scp.css */
 body[b-wsutnc8puh] {
     margin: 0;
@@ -88,7 +115,52 @@ h5[b-dgd59kxs8t] {
 #categories > .card > img[b-dgd59kxs8t]{
     border-radius: 30%;
 }
+/* _content/CPSC481/Pages/TripPage.razor.rz.scp.css */
+.page-container[b-6inhuixx6h] {
+    width: 100%;
+}
+
+.page-header[b-6inhuixx6h] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-body[b-6inhuixx6h] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 1em;
+    height: auto;
+}
+
+.btn-round[b-6inhuixx6h] {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.trip-name[b-6inhuixx6h] {
+    margin: 0 0 0 0.5rem;
+}
+
+#add-new-plan[b-6inhuixx6h] {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+hr[b-6inhuixx6h] {
+    margin-top: -1rem;
+}
 /* _content/CPSC481/Shared/MainLayout.razor.rz.scp.css */
+*[b-7zfj4j95sg] {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
 .page[b-7zfj4j95sg] {
     position: relative;
     display: flex;
@@ -97,6 +169,11 @@ h5[b-dgd59kxs8t] {
 
 main[b-7zfj4j95sg] {
     flex: 1;
+    overflow: scroll;
+}
+
+article[b-7zfj4j95sg] {
+    height: 800px;
 }
 
 .sidebar[b-7zfj4j95sg] {
@@ -105,6 +182,7 @@ main[b-7zfj4j95sg] {
 
 .navbar[b-7zfj4j95sg] {
     padding: 0;
+    height: fit-content;
 }
 
 .top-row[b-7zfj4j95sg] {
