@@ -1,0 +1,13 @@
+.previous[b-odv8kjcm70] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-primary[b-odv8kjcm70] {
+    background-color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    margin: 6px 4px;
+    /*    bottom: 20px;*/
+}

@@ -25,6 +25,43 @@
     border-radius: 5rem;
     padding: 0;
 }
+/* _content/CPSC481/Pages/AddPlan.razor.rz.scp.css */
+.previous[b-odv8kjcm70] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-primary[b-odv8kjcm70] {
+    background-color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    margin: 6px 4px;
+    /*    bottom: 20px;*/
+}
+/* _content/CPSC481/Pages/AddTrip.razor.rz.scp.css */
+.previous[b-z72x14d4zp] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.groove[b-z72x14d4zp] {
+    border-style: groove;
+}
+
+.border[b-z72x14d4zp] {
+    border-style: groove;
+}
+
+/*.form-group {
+    border-style: groove;
+}*/
+
+.form-box[b-z72x14d4zp] {
+    border-style: solid;
+    padding: 0.5rem;
+}
 /* _content/CPSC481/Pages/AmenitySearchPage.razor.rz.scp.css */
 body[b-wsutnc8puh] {
     margin: 0;
@@ -114,6 +151,46 @@ h5[b-dgd59kxs8t] {
 
 #categories > .card > img[b-dgd59kxs8t]{
     border-radius: 30%;
+}
+/* _content/CPSC481/Pages/TripMainPage.razor.rz.scp.css */
+.btnTrip[b-bbl5kbr5ma] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-success[b-bbl5kbr5ma] {
+    /*    border-radius: 50%;*/
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    padding: 15px 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #4CAF50;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixed-bottom[b-bbl5kbr5ma] {
+    bottom: 0px;
+    width: 100%
+}
+
+#add-new-plan[b-bbl5kbr5ma] {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+    border-radius: 5rem;
+    padding: 0.5rem;
 }
 /* _content/CPSC481/Pages/TripPage.razor.rz.scp.css */
 .page-container[b-6inhuixx6h] {
