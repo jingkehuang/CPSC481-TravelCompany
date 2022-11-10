@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jungs\\.nuget\\packages\\": {},
+    "C:\\Users\\Ariel Lin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jungs\\source\\repos\\CPSC481-TravelCompany\\CPSC481\\CPSC481.csproj",
+      "projectUniqueName": "C:\\Users\\Ariel Lin\\Desktop\\481\\CPSC481\\CPSC481.csproj",
       "projectName": "CPSC481",
-      "projectPath": "C:\\Users\\jungs\\source\\repos\\CPSC481-TravelCompany\\CPSC481\\CPSC481.csproj",
-      "packagesPath": "C:\\Users\\jungs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jungs\\source\\repos\\CPSC481-TravelCompany\\CPSC481\\obj\\",
+      "projectPath": "C:\\Users\\Ariel Lin\\Desktop\\481\\CPSC481\\CPSC481.csproj",
+      "packagesPath": "C:\\Users\\Ariel Lin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ariel Lin\\Desktop\\481\\CPSC481\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jungs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ariel Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
