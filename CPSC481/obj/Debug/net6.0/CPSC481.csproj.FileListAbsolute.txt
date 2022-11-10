@@ -90,3 +90,4 @@ C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\Pla
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddPlan.razor.rz.scp.css
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddTrip.razor.rz.scp.css
 C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripMainPage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\TripCard.razor.rz.scp.css

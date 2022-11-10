@@ -1,39 +1,34 @@
-.btnTrip[b-bbl5kbr5ma] {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+.page-container[b-bbl5kbr5ma] {
     width: 100%;
 }
 
-.btn-success[b-bbl5kbr5ma] {
-    /*    border-radius: 50%;*/
-    background: transparent;
-    transition: all 0.3s ease 0s;
-    padding: 15px 20px;
-    background-color: white;
-    font-weight: bold;
-    color: #4CAF50;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
+.page-header[b-bbl5kbr5ma] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
 }
 
-.fixed-bottom[b-bbl5kbr5ma] {
-    bottom: 0px;
-    width: 100%
+.page-body[b-bbl5kbr5ma] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 1em;
+    height: auto;
 }
 
-#add-new-plan[b-bbl5kbr5ma] {
+.page-title[b-bbl5kbr5ma] {
+    margin: 0 0 0 0.5rem;
+}
+
+.btn-fixed[b-bbl5kbr5ma] {
     position: fixed;
     bottom: 8rem;
     right: 2rem;
+}
+
+.btn-round[b-bbl5kbr5ma] {
     border-radius: 5rem;
     padding: 0.5rem;
 }

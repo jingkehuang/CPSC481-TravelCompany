@@ -23,16 +23,12 @@
     padding: 0.5rem;
 }
 
-.trip-name {
+.page-title {
     margin: 0 0 0 0.5rem;
 }
 
-#add-new-plan {
+.btn-fixed {
     position: fixed;
     bottom: 8rem;
     right: 2rem;
-}
-
-hr {
-    margin-top: -1rem;
 }

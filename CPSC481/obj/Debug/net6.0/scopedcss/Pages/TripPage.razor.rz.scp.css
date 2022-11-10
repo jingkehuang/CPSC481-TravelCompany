@@ -23,16 +23,12 @@
     padding: 0.5rem;
 }
 
-.trip-name[b-6inhuixx6h] {
+.page-title[b-6inhuixx6h] {
     margin: 0 0 0 0.5rem;
 }
 
-#add-new-plan[b-6inhuixx6h] {
+.btn-fixed[b-6inhuixx6h] {
     position: fixed;
     bottom: 8rem;
     right: 2rem;
-}
-
-hr[b-6inhuixx6h] {
-    margin-top: -1rem;
 }
