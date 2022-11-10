@@ -1,0 +1,34 @@
+.page-container[b-bbl5kbr5ma] {
+    width: 100%;
+}
+
+.page-header[b-bbl5kbr5ma] {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-body[b-bbl5kbr5ma] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 1em;
+    height: auto;
+}
+
+.page-title[b-bbl5kbr5ma] {
+    margin: 0 0 0 0.5rem;
+}
+
+.btn-fixed[b-bbl5kbr5ma] {
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+
+.btn-round[b-bbl5kbr5ma] {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}

@@ -1,0 +1,34 @@
+﻿.page-container {
+    width: 100%;
+}
+
+.page-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.page-title {
+    margin: 0 0 0 0.5rem;
+}
+
+.plan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem 1em;
+    height: auto;
+}
+
+.btn-save {
+    background-color: #4CAF50;
+    margin: 1rem 0;
+    color: white;
+}
+
+.btn-round {
+    border-radius: 5rem;
+    padding: 0.5rem;
+}

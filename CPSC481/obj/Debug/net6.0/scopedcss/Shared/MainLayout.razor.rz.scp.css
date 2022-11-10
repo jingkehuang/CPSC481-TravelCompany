@@ -1,3 +1,9 @@
+*[b-7zfj4j95sg] {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
 .page[b-7zfj4j95sg] {
     position: relative;
     display: flex;
@@ -6,6 +12,11 @@
 
 main[b-7zfj4j95sg] {
     flex: 1;
+    overflow: scroll;
+}
+
+article[b-7zfj4j95sg] {
+    height: 800px;
 }
 
 .sidebar[b-7zfj4j95sg] {
@@ -14,6 +25,7 @@ main[b-7zfj4j95sg] {
 
 .navbar[b-7zfj4j95sg] {
     padding: 0;
+    height: fit-content;
 }
 
 .top-row[b-7zfj4j95sg] {

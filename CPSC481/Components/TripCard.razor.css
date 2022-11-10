@@ -1,0 +1,12 @@
+﻿.trip-card {
+    text-align: left;
+    padding: 0;
+}
+
+.trip-card:last-child {
+    margin-bottom: 2.25rem;
+}
+
+.card-text {
+    margin: 0;
+}

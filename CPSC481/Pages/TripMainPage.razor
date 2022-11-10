@@ -1,0 +1,53 @@
+﻿@page "/trips"
+
+<PageTitle>Trips</PageTitle>
+
+<div class="page-container">
+    <div class="page-header">
+        <button type="button" class="btn btn-round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+        </button>
+        <p class="text-wrap fs-4 fw-bold page-title">Trips</p>
+    </div>
+    <div class="page-body">
+        <CPSC481.Components.TripCard tripName="@trip1" tripDate="@date1" tripDuration="@duration1" />
+        <CPSC481.Components.TripCard tripName="@trip2" tripDate="@date2" tripDuration="@duration2" />
+        <CPSC481.Components.TripCard tripName="@trip3" tripDate="@date3" tripDuration="@duration3" />
+        <CPSC481.Components.TripCard tripName="@trip4" tripDate="@date4" tripDuration="@duration4" />
+        <CPSC481.Components.TripCard tripName="@trip5" tripDate="@date5" tripDuration="@duration5" />
+        <CPSC481.Components.TripCard tripName="@trip1" tripDate="@date1" tripDuration="@duration1" />
+        <CPSC481.Components.TripCard tripName="@trip2" tripDate="@date2" tripDuration="@duration2" />
+        <CPSC481.Components.TripCard tripName="@trip3" tripDate="@date3" tripDuration="@duration3" />
+        <CPSC481.Components.TripCard tripName="@trip4" tripDate="@date4" tripDuration="@duration4" />
+        <CPSC481.Components.TripCard tripName="@trip5" tripDate="@date5" tripDuration="@duration5" />
+    </div>
+    <a href="AddTrip" class="btn-fixed btn btn-round btn-dark" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+        </svg>
+    </a>
+</div>
+
+@code {
+    private string trip1 = "Canadian Rockies Trip";
+    private string date1 = "Sep 21 - Oct 31";
+    private string duration1 = "40 days";
+
+    private string trip2 = "Winter Trip";
+    private string date2 = "Dec 20 - Dec 30";
+    private string duration2 = "10 days";
+
+    private string trip3 = "Trip 01";
+    private string date3 = "Jan 10 - Jan 22";
+    private string duration3 = "12 days";
+
+    private string trip4 = "Trip 02";
+    private string date4 = "Dec 20 - Dec 30";
+    private string duration4 = "10 days";
+
+    private string trip5 = "Trip 03";
+    private string date5 = "Jan 20 - Jan 30";
+    private string duration5 = "10 days";
+}

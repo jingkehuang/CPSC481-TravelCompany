@@ -44,7 +44,6 @@ C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC4
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.RazorAssemblyInfo.cs
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\bundle\CPSC481.styles.css
@@ -54,6 +53,7 @@ C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\refin
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.pdb
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.genruntimeconfig.cache
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\ref\CPSC481.dll
+<<<<<<< HEAD
 C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\bin\Debug\net6.0\appsettings.json
 C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\bin\Debug\net6.0\CPSC481.staticwebassets.runtime.json
@@ -83,3 +83,50 @@ C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.
 C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.genruntimeconfig.cache
 C:\Users\HP\Source\Repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\ref\CPSC481.dll
 C:\Users\HP\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\Events.razor.rz.scp.css
+=======
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\appsettings.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.staticwebassets.runtime.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.exe
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.deps.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.runtimeconfig.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.dll
+C:\Users\Ariel Lin\Desktop\481\CPSC481\bin\Debug\net6.0\CPSC481.pdb
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.csproj.AssemblyReference.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.AssemblyInfoInputs.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.AssemblyInfo.cs
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.csproj.CoreCompileInputs.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.RazorAssemblyInfo.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.RazorAssemblyInfo.cs
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\bundle\CPSC481.styles.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\projectbundle\CPSC481.bundle.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.dll
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\refint\CPSC481.dll
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.pdb
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\CPSC481.genruntimeconfig.cache
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\ref\CPSC481.dll
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AmenitySearchPage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\ExplorePage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripPage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\DayPlans.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\PlanCard.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddPlan.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddTrip.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripMainPage.razor.rz.scp.css
+C:\Users\Ariel Lin\Desktop\481\CPSC481\obj\Debug\net6.0\scopedcss\Components\TripCard.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Components\DayPlans.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Components\PlanCard.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Components\TripCard.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddPlan.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AddTrip.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AmenitySearchPage.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\ExplorePage.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripMainPage.razor.rz.scp.css
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\TripPage.razor.rz.scp.css
+>>>>>>> c9d1534042d4c4a2a2e3f6f29b15c3616e650ae7

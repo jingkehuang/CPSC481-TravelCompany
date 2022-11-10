@@ -19,21 +19,45 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Resources/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVzb3VyY2VzXENvdW50ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Resources/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVzb3VyY2VzXEZldGNoRGF0YS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Resources/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVzb3VyY2VzXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Components/DayPlans.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXlQbGFucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-fhduwdozlg
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Components/PlanCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQbGFuQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ozac5kjzqk
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Components/TripCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUcmlwQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-1w2br271js
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/AddPlan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUGxhbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-odv8kjcm70
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/AddTrip.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVHJpcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-z72x14d4zp
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/AmenitySearchPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW1lbml0eVNlYXJjaFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wsutnc8puh
 
 [C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/EventPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRQYWdlLnJhem9y
@@ -51,9 +75,17 @@ build_metadata.AdditionalFiles.CssScope = b-l2yi30aqmu
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzU2VhcmNoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-eulzkcmefz
 
-[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-4bqqtykl6g
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/ExplorePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwbG9yZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dgd59kxs8t
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/TripMainPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJpcE1haW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-bbl5kbr5ma
+
+[C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Pages/TripPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJpcFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6inhuixx6h
 
 [C:/Users/HP/source/repos/CPSC481-TravelCompany/CPSC481/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
