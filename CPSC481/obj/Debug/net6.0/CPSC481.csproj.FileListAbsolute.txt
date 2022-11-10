@@ -54,3 +54,4 @@ C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\refin
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.pdb
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\CPSC481.genruntimeconfig.cache
 C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\ref\CPSC481.dll
+C:\Users\jungs\source\repos\CPSC481-TravelCompany\CPSC481\obj\Debug\net6.0\scopedcss\Pages\AmenitySearch.razor.rz.scp.css
